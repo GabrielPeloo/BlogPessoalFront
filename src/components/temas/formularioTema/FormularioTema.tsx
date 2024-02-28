@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useContext, useEffect, useState } from 'react';
+import { ChangeEvent, useContext, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthContext';
 import Tema from '../../../models/Tema';
@@ -76,7 +76,7 @@ function FormularioTema() {
           alert('O token expirou, favor logar novamente')
           handleLogout()
         } else {
-          alert('Erro ao cadastrado o Tema')
+          alert('Erro ao cadastrar o Tema')
         }
       }
     }
