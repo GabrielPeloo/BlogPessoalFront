@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
 import { ToastContainer } from 'react-toastify';
 import Cadastro from './paginas/cadastro/Cadastro';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/navbar/NavBar';
 import Home from './paginas/home/Home';
 import Footer from './components/footer/Footer';
 import ListaTemas from './components/temas/listaTemas/ListaTemas';
