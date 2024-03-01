@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
 import { ToastContainer } from 'react-toastify';
 import Cadastro from './paginas/cadastro/Cadastro';
-import Navbar from './components/navbar/NavBar';
+
 import Home from './paginas/home/Home';
 import Footer from './components/footer/Footer';
 import ListaTemas from './components/temas/listaTemas/ListaTemas';
@@ -17,8 +17,10 @@ import DeletarTema from './components/temas/deletarTema/DeletarTema';
 import ListaPostagens from './components/postagens/listaPostagens/ListaPostagens';
 import FormularioPostagem from './components/postagens/formularioPostagem/FormularioPostagem';
 
-import Perfil from './paginas/perfil/Perfil';
+
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
+import Navbar from './components/navbar/NavBar';
+import Perfil from './paginas/perfil/Perfil';
 
 function App() {
   
